@@ -20,8 +20,8 @@ connectCloudinary();
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
-  "https://appointment-booking-system-2-m5b4.onrender.com", // User frontend
-  "https://appointment-booking-system-1-wn2v.onrender.com", // Admin panel
+  "https://appointment-booking-system-2-m5b4.onrender.com", 
+  "https://appointment-booking-system-1-wn2v.onrender.com", 
 ];
 
 app.use(express.json());
